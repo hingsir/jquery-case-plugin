@@ -1,4 +1,4 @@
-;(function(window,$){
+;(function($){
 
     $.fn.case = function(boolean_expression,true_callback,false_callback){
 
@@ -13,4 +13,4 @@
         }
         return this;
     }
-})(window, $ || jQuery)
+})($ || jQuery)
