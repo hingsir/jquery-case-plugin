@@ -7,7 +7,7 @@ var flag = true;
 $(selector).case(flag,function(){
   $(this).addClass('class1');
 },function(){
-  $(this.addClass('class2');
+  $(this).addClass('class2');
 }).on('click',function(){
   alert('链式操作');
 })
